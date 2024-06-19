@@ -16,7 +16,7 @@ A simple video converter using `ffmpeg` with a concise and user-friendly graphic
 
 ### Idea
 
-Sometimes, you need to quickly and easily convert video files without delving into complex video editing software. Such situations occurred at an agency where I worked. Often, the SMM department received content from various photographers in "god-knows-what" formats. The task seemed simple, but minimizing the time spent on using "complex" software was desired. FFMPEG is ideal in this regard. Therefore, to spare colleagues from using the command line, I created a simple desktop application where, at worst, you need to press 5 buttons, and at best, just 2. A pleasant interface makes everything clear and simple!
+Sometimes, you need to quickly and easily convert video files without delving into complex video editing software. Such situations occurred at an agency where I worked. Often, the SMM department received content from various photographers in "god-knows-what" formats. The task seemed simple, but minimizing the time spent on using "complex" software was desired. FFMPEG is ideal in this regard. Therefore, to spare colleagues from using the command line, I created a simple desktop application where, at worst, you need to press 5 buttons, and at best, just 2. A pleasant interface makes everything clear and simple! (Thanx ~~God~~ [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter.git) for this!)
 
 ![pic](static_readme/screenshot.gif)
 
@@ -39,8 +39,6 @@ For the project itself, you need:
 1. Clone the repository and create a virtual environment.
 2. Install the GUI library:
 
-[Customtkinter is the best: https://github.com/TomSchimansky/CustomTkinter.git](https://github.com/TomSchimansky/CustomTkinter.git)
-
 ```bash
 pip install customtkinter
 ```
@@ -48,7 +46,11 @@ pip install customtkinter
 3. If necessary, specify the path to ffmpeg and ffprobe in `config.py`.
 4. If necessary, install the program using the `pyinstaller` library.
 
-[Link to instructions:  https://pyinstaller.org](https://pyinstaller.org/en/stable/)
+## Usefully links
+
+[Customtkinter is the best: https://github.com/TomSchimansky/CustomTkinter.git](https://github.com/TomSchimansky/CustomTkinter.git)
+
+[Link to Pyinstaller instructions:  https://pyinstaller.org](https://pyinstaller.org/en/stable/)
 
 ## Usage
 
