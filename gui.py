@@ -23,7 +23,7 @@ class MainWindow(ctk.CTk):
         self.withdraw()
         self.pre_win = None
         self.start_pre()
-        self.after(20000, self.close_pre)
+        self.after(3000, self.close_pre)
 
         # init variables
         self.type_dict = {0: 'mp4', 1: 'mov', 2: 'mkv'}
