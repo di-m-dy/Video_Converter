@@ -39,12 +39,15 @@
 1. Клонировать репозиторий и создать виртуальное окружение.
 2. Установить библиотеку для GUI:
 
+[Customtkinter is the best: https://github.com/TomSchimansky/CustomTkinter.git](https://github.com/TomSchimansky/CustomTkinter.git)
+
 ```bash
 pip install customtkinter
 ```
 
 3. Прописать при необходимости в  `config.py` путь до ffmpeg и ffprobe.
 4. При необходимости инсталлировать программу с помощью библиотеки `pyinstaller`.
+
 [Cсылка на инструкции: https://pyinstaller.org](https://pyinstaller.org/en/stable/)
 
 ## Использование
